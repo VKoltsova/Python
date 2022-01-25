@@ -26,6 +26,7 @@ run = True
 # Тело цикла:
 # 7.1 Выводить в консоль (“Step =”, count)
 # 7.2 Переменной count прибавлять 1 с присвоением.
+# count = 0
 # while count < range_count:
 #     print("Step = ", count)
 #     count += 1
@@ -34,7 +35,7 @@ run = True
 # 8.1 Выводить в консоль (“Step =”, count)
 # 8.2 Переменной count прибавлять 1 с присвоением.
 # 8.3 Сделать if с условием, если count равен 3 то выводить в консоль (“Step =”, count, ‘If body’)
-#
+# count = 0
 # while count < range_count:
 #     print("Step = ", count)
 #     count += 1
@@ -46,7 +47,7 @@ run = True
 # 9.2 Переменной count прибавлять 1 с присвоением.
 # 9.2 Сделать if с условием, если count равен range_count то цикл остановится.
 # 9.3 В теле if вывести в консоль (“STOP”, count)
-#
+# count = 0
 # while run:
 #     print("Step = ", count)
 #     count += 1
@@ -58,8 +59,6 @@ run = True
 # Тело цикла:
 # 10.1 Вывести в консоль (‘Step =’, item)
 #
-
-item = 0
 # for i in range(for_count, range_count):
 #     print("Step = ", item)
 #     item +=1
